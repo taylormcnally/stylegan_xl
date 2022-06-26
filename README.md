@@ -35,7 +35,7 @@ If you find our code or paper useful, please cite
 - StyleGAN-XL + CLIP (Modified by Katherine Crowson to optimize in W+ space) &nbsp;-&nbsp; [![StyleGAN-XL + CLIP](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZEnJE-EUnh-aCXJbu0kVhi8_Qdi2BV-S)
 
 ## Requirements ##
-- 64-bit Python 3.9 and PyTorch 1.10.0 (or later). See https://pytorch.org for PyTorch install instructions.
+- 64-bit Python 3.9 and PyTorch 1.11.0 (or later). See https://pytorch.org for PyTorch install instructions.
 - CUDA toolkit 11.1 or later.
 - GCC 7 or later compilers. The recommended GCC version depends on your CUDA version; see for example, CUDA 11.4 system requirements.
 - If you run into problems when setting up the custom CUDA kernels, we refer to the [Troubleshooting docs](https://github.com/NVlabs/stylegan3/blob/main/docs/troubleshooting.md#why-is-cuda-toolkit-installation-necessary) of the original StyleGAN3 repo and the following issues: https://github.com/autonomousvision/stylegan_xl/issues/23.
